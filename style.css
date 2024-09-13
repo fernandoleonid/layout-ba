@@ -77,5 +77,8 @@ main{
 
 footer{
     height: 100px;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
 }
