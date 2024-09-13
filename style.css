@@ -38,12 +38,37 @@ header{
 
 main{
     flex-grow: 1;
-    background-color: plum;
     display: flex;
 }
 .conteudo{
     width: 50%;
-    background-color: tomato;
+    padding-right: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteudo h1 {
+    font-size: 80px;
+}
+.conteudo p{
+    font-size: 48px;
+}
+.conteudo button {
+    height: 64px;
+    width: 300px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: lightgray;
 }
 .destaque{
     width: 50%;
